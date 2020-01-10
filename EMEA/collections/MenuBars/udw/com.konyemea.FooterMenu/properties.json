@@ -1,0 +1,15 @@
+{
+    "assetPlatform": "Visualizer",
+    "assetVersion": "1.0.0",
+    "createdBy": "miguelangel.fernandez@kony.com",
+    "createdMFVersion": "8.4.4.8",
+    "createdVizVersion": "8.4.43",
+    "currentMFVersion": "8.4.4.8",
+    "currentVizVersion": "8.4.43",
+    "description": "Used for Credem.",
+    "itemCategory": "udw",
+    "itemGuid": "id19ca9e53ee4f5dab4b82e6a9d9cb26",
+    "itemName": "com.konyemea.FooterMenu",
+    "libraryVersion": "libver4",
+    "modifiedBy": "miguelangel.fernandez@kony.com"
+}

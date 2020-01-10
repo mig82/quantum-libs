@@ -1,0 +1,43 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.konyemea",
+        "uw_classname": "NumKeypad",
+        "isLocked": false,
+        "userwidgets": [
+            "com.konyemea.NumKeypad"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "NumKeypadSkin",
+            "slFbox",
+            "amountLabelSkin",
+            "keypadButtonSkin",
+            "keypadButtonFocusSkin",
+            "keypadFlexSkin",
+            "keypadNumberFlexNormalSkin",
+            "keypadFlexFocusSkin",
+            "keypadNormal",
+            "NumKeypadShadowFlexSkin"
+        ],
+        "images": [],
+        "fonts": [
+            "Roboto-Medium"
+        ],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:49:29.487Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

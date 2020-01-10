@@ -1,0 +1,2103 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_bottom_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_height_": {
+            "type": "string",
+            "value": "345dp"
+        },
+        "_left_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "sfc876d54bb94c2c8b934373ec05dbf9",
+        "_width_": {
+            "type": "string",
+            "value": "100%"
+        },
+        "allboxes": [],
+        "amountFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "50dp"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "22dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s133a656535149a3a939ad02be7deed1",
+            "_top_": {
+                "type": "string",
+                "value": "5dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "90%"
+            },
+            "allboxes": [],
+            "amountLabel": {
+                "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "ref",
+                    "value": "preferred"
+                },
+                "_margin_": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s299f994f3914791b9007dced21b498c",
+                "_text_": "-",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_wrapping_": 2,
+                "android": {
+                    "textStyle": {
+                        "letterSpacing": 0,
+                        "strikeThrough": false
+                    }
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50.00%"
+                },
+                "containerweight": 100,
+                "contentalignment": 5,
+                "id": "amountLabel",
+                "info": null,
+                "ipad": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iphone": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "he98ffaa690145bbbae12193bda59147",
+                "name": "kony.ui.Label",
+                "parent": "amountFlex",
+                "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "textstyle": {},
+                "tooltip": "",
+                "wType": "Label",
+                "zindex": 1
+            },
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "children": [
+                "placeHolderLabel",
+                "amountLabel"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "amountFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "b7186aa4176a42ac89e8aa9f1adec434",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "NumKeypad",
+            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+            "placeHolderLabel": {
+                "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "ref",
+                    "value": "preferred"
+                },
+                "_margin_": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s299f994f3914791b9007dced21b498c",
+                "_text_": "0,00 €",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_wrapping_": 2,
+                "android": {
+                    "textStyle": {
+                        "letterSpacing": 0,
+                        "strikeThrough": false
+                    }
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "containerweight": 100,
+                "contentalignment": 5,
+                "id": "placeHolderLabel",
+                "info": null,
+                "ipad": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iphone": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "b205d52f52094826b67e76448a367560",
+                "name": "kony.ui.Label",
+                "parent": "amountFlex",
+                "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "textstyle": {},
+                "tooltip": "",
+                "wType": "Label",
+                "zindex": 1
+            },
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "animationFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_bottom_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_height_": {
+                "type": "string",
+                "value": "255dp"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s133a656535149a3a939ad02be7deed1",
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [
+                "shadowFlex",
+                "padFlex"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "animationFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "a0abc691426e42b49ee6a0e6a81f403f",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "padFlex": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_bottom_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_height_": {
+                    "type": "string",
+                    "value": "245dp"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "sf7b895ce7744af68826b25bc0bc433c",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "children": [
+                    "rowButtonFlex1",
+                    "rowButtonFlex2",
+                    "rowButtonFlex3",
+                    "rowButtonFlex4"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "enablescrolling": true,
+                "id": "padFlex",
+                "info": null,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "b9cd57d1da8d4ee193ad8c410abce410",
+                "layouttype": 4,
+                "name": "kony.ui.FlexContainer",
+                "parent": "animationFlex",
+                "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "retainflowhorizontalalignment": false,
+                "rowButtonFlex1": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "50dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s133a656535149a3a939ad02be7deed1",
+                    "_top_": {
+                        "type": "string",
+                        "value": "5dp"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "flex1",
+                        "flex2",
+                        "flex3"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flex1": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "3%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button1": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "1",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button1",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "j5204ef4d4c74127a889419a7d43f42f",
+                            "name": "kony.ui.Button",
+                            "parent": "flex1",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button1"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex1",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "cc41a53994bb429fb2dc6986f0c2a291",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex1",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flex2": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button2": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "2",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button2",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "c026abdffb984969b18c9d33b8478c01",
+                            "name": "kony.ui.Button",
+                            "parent": "flex2",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button2"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex2",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "eb10cd4fd576475eb837a7ea44d97421",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex1",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flex3": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button3": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "3",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button3",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "e3f239fe6f8042869f4ddea9e08e706e",
+                            "name": "kony.ui.Button",
+                            "parent": "flex3",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button3"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex3",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "a631ea250a3c4f5190d187e92d3b90df",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex1",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "id": "rowButtonFlex1",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "ib5739bc27b7474ab3409e7956d1dc1b",
+                    "layouttype": 3,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "padFlex",
+                    "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "rowButtonFlex2": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "50dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s133a656535149a3a939ad02be7deed1",
+                    "_top_": {
+                        "type": "string",
+                        "value": "5dp"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "flex4",
+                        "flex5",
+                        "flex6"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flex4": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "3%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button4": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "4",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button4",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "iec24651e12e4db19af198fa9dcaa6a4",
+                            "name": "kony.ui.Button",
+                            "parent": "flex4",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button4"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex4",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "f3ea54eb3123409bb52b555f1a531a89",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex2",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flex5": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button5": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "5",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button5",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "d2221324c9d54d2eb832a191f6c1f404",
+                            "name": "kony.ui.Button",
+                            "parent": "flex5",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button5"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex5",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "fd3bb28fb87e462c8895d28a7d385e61",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex2",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flex6": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button6": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "6",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button6",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "a97640d40c0349249d7b4244c89ec9fd",
+                            "name": "kony.ui.Button",
+                            "parent": "flex6",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button6"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex6",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "h68ef32d11e8426f94ac01f57e0aecaa",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex2",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "id": "rowButtonFlex2",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "b1674f73654a4713bdc4fbefce406f51",
+                    "layouttype": 3,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "padFlex",
+                    "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "rowButtonFlex3": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "50dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s133a656535149a3a939ad02be7deed1",
+                    "_top_": {
+                        "type": "string",
+                        "value": "5dp"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "flex7",
+                        "flex8",
+                        "flex9"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flex7": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "3%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button7": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "7",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button7",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "j5cf3d424ddc427080a238c21945b422",
+                            "name": "kony.ui.Button",
+                            "parent": "flex7",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button7"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex7",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "ace7237977354fffaae8755a1ff9317f",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex3",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flex8": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button8": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "8",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button8",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "f60f91efffef4ec780a127893df5f3da",
+                            "name": "kony.ui.Button",
+                            "parent": "flex8",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button8"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex8",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "acfe43c4842a41af85c38f62281e3698",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex3",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flex9": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button9": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "9",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button9",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "a147e01694824fae84f063e26efd1f75",
+                            "name": "kony.ui.Button",
+                            "parent": "flex9",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button9"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex9",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "aad9853ddbb44b36a0fcd6f61bc40e86",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex3",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "id": "rowButtonFlex3",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "i02115c3a82c4ba28418fc610873c6be",
+                    "layouttype": 3,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "padFlex",
+                    "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "rowButtonFlex4": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "50dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s133a656535149a3a939ad02be7deed1",
+                    "_top_": {
+                        "type": "string",
+                        "value": "5dp"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "flexDot",
+                        "flex0",
+                        "flexDelImage"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flex0": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "button0": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "0",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "button0",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "ie48568ab6424027a1d1702ed9b172be",
+                            "name": "kony.ui.Button",
+                            "parent": "flex0",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "button0"
+                        ],
+                        "clipbounds": false,
+                        "containerweight": 100,
+                        "disabledSkins": {
+                            "focusSkin": "s55fc38e4bbf4ca18f08a7904ce35db2"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flex0",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "g03fb9974b1e45f080291d680cac22dc",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex4",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flexDelImage": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [
+                            "delButton"
+                        ],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "delButton": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": "⌫",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "delButton",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "jc04834de2cd4963bd85bb766e764f6b",
+                            "name": "kony.ui.Button",
+                            "parent": "flexDelImage",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "disabledSkins": {},
+                        "enablescrolling": true,
+                        "focusskin": "sd8397eaed1948a1ba453d60d842888b",
+                        "id": "flexDelImage",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "a0e120ff6dea49d7a7f1fd5494342ea7",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex4",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "flexDot": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "3%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd46688e0526425d943099ff383cd59f",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "30%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [
+                            "decButton"
+                        ],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "decButton": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "sdd735cc4b7044449a741dd5ea5d3b48",
+                            "_text_": ".",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "s727767439e9470d91712ee095926882",
+                            "id": "decButton",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "fa4d2f0185f04238902dd13dc43bfc3d",
+                            "name": "kony.ui.Button",
+                            "parent": "flexDot",
+                            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "wType": "Button",
+                            "zindex": 1
+                        },
+                        "disabledSkins": {
+                            "focusSkin": "sd8397eaed1948a1ba453d60d842888b"
+                        },
+                        "enablescrolling": true,
+                        "focusskin": null,
+                        "id": "flexDot",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "i384941814d64a89b75c5e8d55f7f99a",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "rowButtonFlex4",
+                        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1
+                    },
+                    "id": "rowButtonFlex4",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "f6a88661d59e4224a407c38d866a1d5c",
+                    "layouttype": 3,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "padFlex",
+                    "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "parent": "NumKeypad",
+            "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "shadowFlex": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_bottom_": {
+                    "type": "string",
+                    "value": "245dp"
+                },
+                "_height_": {
+                    "type": "string",
+                    "value": "10dp"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "s38e155b7f7a4ff6b63bea79b83240d6",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "children": [],
+                "clipbounds": true,
+                "containerweight": 100,
+                "enablescrolling": true,
+                "id": "shadowFlex",
+                "info": null,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "bbb9a09791264785b253f40f87422705",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "animationFlex",
+                "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "retainflowhorizontalalignment": false,
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "children": [
+            "amountFlex",
+            "animationFlex"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "NumKeypad",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "a4d73f67b5f54907a7351ad4f70a2952",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwg75bceb41de649aaa15a65f3c0761f62",
+        "pf": "uwg75bceb41de649aaa15a65f3c0761f62",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "retainflowhorizontalalignment": false,
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "vizProps": {
+            "hidewidgethierarchy": false
+        },
+        "wType": "FlexContainer",
+        "widgetalignment": 1
+    },
+    "userwidgetKUID": "u5c96f157ff947e9b098fb933160c12d"
+}

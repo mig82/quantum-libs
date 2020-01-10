@@ -1,0 +1,40 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.konyemea",
+        "uw_classname": "CreditCard2",
+        "isLocked": false,
+        "userwidgets": [
+            "com.konyemea.CreditCard2"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "slFbox",
+            "slForm",
+            "CreditCardCropFlexSkin",
+            "CreditCardPanSkin",
+            "slImage"
+        ],
+        "images": [
+            "credit_card.png"
+        ],
+        "fonts": [
+            "LarabieRegular"
+        ],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:51:06.951Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

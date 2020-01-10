@@ -1,0 +1,102 @@
+{
+  "android": {
+    "font_name": "Roboto-Medium",
+    "font_size": 167,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_name": "default",
+    "font_size": 214,
+    "isForked": false
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "848688ff",
+  "border_style": "rc",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "font_name": "Helvetica",
+    "font_size": 375,
+    "isForked": false
+  },
+  "fontSizeInPx": true,
+  "font_color": "000000ff",
+  "font_name": "iphoneSystem",
+  "font_size": 150,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_name": "System",
+    "font_size": 214,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "Roboto-Medium",
+    "font_size": 150,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "None",
+    "font_size": 375,
+    "isForked": false
+  },
+  "kuid": "sdd735cc4b7044449a741dd5ea5d3b48",
+  "spaan": {
+    "font_name": "Helvetica",
+    "font_size": 133,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "Helvetica",
+    "font_size": 111,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "Helvetica",
+    "font_size": 167,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "Helvetica",
+    "font_size": 142,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "Helvetica",
+    "font_size": 118,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "Helvetica",
+    "font_size": 118,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "Helvetica",
+    "font_size": 167,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "default",
+    "font_size": 356,
+    "isForked": false
+  },
+  "wType": "Button",
+  "watchos": {
+    "font_name": "System",
+    "font_size": 214,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "None",
+    "font_size": 146,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "None",
+    "font_size": 200,
+    "isForked": false
+  }
+}

@@ -1,0 +1,412 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "160dp"
+        },
+        "_left_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s133a656535149a3a939ad02be7deed1",
+        "_top_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_width_": {
+            "type": "string",
+            "value": "100%"
+        },
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "cardCropFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "90%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "52dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s0c63a07140342d1a806d5964fc90174",
+            "_top_": {
+                "type": "string",
+                "value": "76dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "260dp"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "children": [
+                "imgCard",
+                "flxCardNumber"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "flxCardNumber": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "30dp"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "s133a656535149a3a939ad02be7deed1",
+                "_width_": {
+                    "type": "string",
+                    "value": "180dp"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "42%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "80%"
+                },
+                "children": [
+                    "panLabel",
+                    "holderLabel"
+                ],
+                "clipbounds": false,
+                "containerweight": 100,
+                "enablescrolling": true,
+                "holderLabel": {
+                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "ref",
+                        "value": "preferred"
+                    },
+                    "_margin_": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "sb60cdc1de684c259cb664b6454fd11d",
+                    "_text_": "HOLDER NAME",
+                    "_top_": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "_wrapping_": 2,
+                    "accessibilityconfig": {
+                        "a11yLabel": "XXXX"
+                    },
+                    "android": {
+                        "textStyle": {
+                            "letterSpacing": 0,
+                            "strikeThrough": false
+                        }
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "id": "holderLabel",
+                    "info": null,
+                    "ipad": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iphone": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "ddea6450ebec4917b21979a34b9041fa",
+                    "name": "kony.ui.Label",
+                    "parent": "flxCardNumber",
+                    "pf": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "textstyle": {},
+                    "tooltip": "",
+                    "wType": "Label",
+                    "zindex": 1
+                },
+                "id": "flxCardNumber",
+                "info": null,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "e970a3cfd9814fedb397570eda6727ac",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "panLabel": {
+                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_bottom_": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "_height_": {
+                        "type": "ref",
+                        "value": "preferred"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_margin_": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "sb60cdc1de684c259cb664b6454fd11d",
+                    "_text_": "XXXX XXXX XXXX XXXX",
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "_wrapping_": 2,
+                    "accessibilityconfig": {
+                        "a11yLabel": "XXXX"
+                    },
+                    "android": {
+                        "textStyle": {
+                            "letterSpacing": 0,
+                            "strikeThrough": false
+                        }
+                    },
+                    "canUpdateUI": true,
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "id": "panLabel",
+                    "info": null,
+                    "ipad": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iphone": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "f262ad5aae254ad295d1df4631943da8",
+                    "name": "kony.ui.Label",
+                    "parent": "flxCardNumber",
+                    "pf": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "textstyle": {},
+                    "tooltip": "",
+                    "wType": "Label",
+                    "zindex": 1
+                },
+                "parent": "cardCropFlex",
+                "pf": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "id": "cardCropFlex",
+            "imgCard": {
+                "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_base64_": null,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "sb4147b62d704022a7b0565c1304c1d1",
+                "_src_": "credit_card.png",
+                "_top_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "containerweight": 100,
+                "context": {
+                    "channel": "mobile",
+                    "platform": "iphone",
+                    "templateType": "userwidgets",
+                    "topLevelBox": null
+                },
+                "id": "imgCard",
+                "imagescalemode": 0,
+                "info": null,
+                "invokedProperty": "src",
+                "isvisible": true,
+                "kuid": "d0cb2e5f620b4f62b6482c96da29b4db",
+                "name": "kony.ui.Image2",
+                "parent": "cardCropFlex",
+                "pf": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+                "srcType": 1,
+                "wType": "Image",
+                "widgetalignment": 5,
+                "zindex": 1
+            },
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "beaefda32f04407081794cd91c921f53",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "CreditCard2",
+            "pf": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "children": [
+            "cardCropFlex"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "CreditCard2",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "bb955ff0306d4e9ebe32369d2052316d",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+        "pf": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "userwidgetKUID": "u06c4148a833437c9c72b0533681bc82"
+}

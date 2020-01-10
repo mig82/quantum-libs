@@ -1,0 +1,35 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.dbxemea",
+        "uw_classname": "FaceId",
+        "isLocked": false,
+        "userwidgets": [
+            "com.dbxemea.FaceId"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "slFbox",
+            "slImage"
+        ],
+        "images": [
+            "face_id.png"
+        ],
+        "fonts": [],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:52:03.231Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

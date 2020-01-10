@@ -1,0 +1,36 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.konyemea",
+        "uw_classname": "tileIconContainer",
+        "isLocked": false,
+        "userwidgets": [
+            "com.konyemea.tileIconContainer"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "squareSkinRed",
+            "slImage",
+            "slFbox"
+        ],
+        "images": [
+            "id.png"
+        ],
+        "fonts": [],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:46:59.333Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

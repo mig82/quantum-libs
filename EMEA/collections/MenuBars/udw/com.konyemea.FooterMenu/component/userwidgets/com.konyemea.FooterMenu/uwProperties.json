@@ -1,0 +1,202 @@
+{
+    "classname": "FooterMenu",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "idb4a2588215465a836b0c5d39f59219",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onHome",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onHome",
+                        "srcWidget": "flxHome",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a68328aabc9b4e589baba44ec2a42abe"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i79c81d2391b4dc198929f643003ff7a",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onSearch",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onSearch",
+                        "srcWidget": "flxSearchFor",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "de1b84bec5e54e1b9ca441a28e6d9517"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bf7d364aa0cd4b9ca8045833706c9a54",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onChat",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onChat",
+                        "srcWidget": "flxChat",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e16ad16c3457405a9f63e351d5886b79"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "daedfcaf69924abfbbbda3ac12e573af",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "onOther",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onOther",
+                        "srcWidget": "flxOther",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d0197673ef9d467a95b5309c23d5abd4"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "home",
+                    "group": "General",
+                    "kuid": "f5846fdf0ddb4d1da6e5a23f3aac2b27",
+                    "originalPropertyKey": "selectedTab",
+                    "propertyIndex": 13,
+                    "propertyKey": "selectedTab",
+                    "pw": {
+                        "displayName": "Selected",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "c3ffc63aeea84d4a93b5cac843ddd156",
+                    "type": "list selector",
+                    "value": [
+                        "home",
+                        "search",
+                        "chat",
+                        "other",
+                        "none"
+                    ]
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fdaf35e43c7b4664a6d7083957251105",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text1",
+                        "srcWidget": "lblHome",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a2eb9dcd9c7f4317b80a4662061c0271"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ga15ca43d2c845e4b9407e6b032e79e0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "text2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text2",
+                        "srcWidget": "lblSearchFor",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c9040dcf6c0b4114a31151ba3a16c3fb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i0d5fc84f82b4fd09778127e248bf26d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "text3",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text3",
+                        "srcWidget": "lblChat",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f0313f8963a64cf7922c8db795f036d7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fb2b6c35e17f442e83e18de4c21425c6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "text4",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text4",
+                        "srcWidget": "lblOther",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b564ea5c7087453581ee9af4235ab4d4"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konyemea",
+    "version": "1.0.0"
+}

@@ -1,0 +1,49 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.konyemea",
+        "uw_classname": "notificationBubble",
+        "isLocked": false,
+        "userwidgets": [
+            "com.konyemea.notificationBubble"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {
+            "common": {
+                "AS_FlexContainer_c2bb2a1860324bffa34bcade8dd8e4ad": {
+                    "channel": "common",
+                    "actionId": "AS_FlexContainer_c2bb2a1860324bffa34bcade8dd8e4ad",
+                    "actionName": "AS_FlexContainer_c2bb2a1860324bffa34bcade8dd8e4ad",
+                    "isDeveloperEvent": false,
+                    "key": "postshow"
+                }
+            }
+        },
+        "skins": [
+            "bubbleSkin",
+            "slFbox",
+            "slImage",
+            "sknTabTextFont"
+        ],
+        "images": [
+            "notifications1.png"
+        ],
+        "fonts": [
+            "Helvetica"
+        ],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:48:21.677Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

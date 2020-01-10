@@ -1,0 +1,106 @@
+{
+    "classname": "FaceId",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b640451954d84eacbf920b6d662fab2a",
+                    "paramList": [],
+                    "propertyKey": "isSupported",
+                    "pw": {
+                        "displayName": "isSupported",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "db06c0f96f3a43418af4860a60cfad93",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "Authentication Events",
+                    "kuid": "c3a20bdc81034412a4b2af9c5eb93924",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSuccess",
+                    "pw": {
+                        "displayName": "onSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "db06c0f96f3a43418af4860a60cfad93",
+                    "type": "event"
+                },
+                {
+                    "group": "Authentication Events",
+                    "kuid": "a1c347a422d64abfbd7254e620a6e239",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onFailure",
+                    "pw": {
+                        "displayName": "onFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "db06c0f96f3a43418af4860a60cfad93",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "Authentication Events"
+            ],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "bbe664bed1fe448c98687e2c02b79662",
+                    "originalPropertyKey": "promptMessage",
+                    "propertyIndex": 1,
+                    "propertyKey": "promptMessage",
+                    "pw": {
+                        "displayName": "Prompt Message",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "db06c0f96f3a43418af4860a60cfad93",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "jb958b7cc9f44ce88b20ee3ee3088088",
+                    "originalPropertyKey": "fallbackMessage",
+                    "propertyIndex": 2,
+                    "propertyKey": "fallbackMessage",
+                    "pw": {
+                        "displayName": "Fallback Message",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "db06c0f96f3a43418af4860a60cfad93",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dbxemea",
+    "version": "1.0.0"
+}

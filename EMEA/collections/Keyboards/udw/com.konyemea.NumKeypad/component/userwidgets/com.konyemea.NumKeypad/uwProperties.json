@@ -1,0 +1,125 @@
+{
+    "classname": "NumKeypad",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "df4bac0a51434b21b6b97c88353895e7",
+                    "paramList": [],
+                    "propertyKey": "getValue",
+                    "pw": {
+                        "displayName": "getValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a4d73f67b5f54907a7351ad4f70a2952",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "Keypad Events",
+                    "kuid": "g06366fa676642f6a0e074a703ad797d",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onNumberPressed",
+                    "pw": {
+                        "displayName": "onNumberPressed",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a4d73f67b5f54907a7351ad4f70a2952",
+                    "type": "event"
+                },
+                {
+                    "group": "Keypad Events",
+                    "kuid": "gac5f133831d4f5b9a2f6d0354244276",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onDeletePressed",
+                    "pw": {
+                        "displayName": "onDeletePressed",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a4d73f67b5f54907a7351ad4f70a2952",
+                    "type": "event"
+                },
+                {
+                    "group": "Keypad Events",
+                    "kuid": "fcfc5770c865417f8d971ca361bf2672",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onDecimalPressed",
+                    "pw": {
+                        "displayName": "onDecimalPressed",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a4d73f67b5f54907a7351ad4f70a2952",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "Keypad Events"
+            ],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 3,
+                    "group": "General",
+                    "kuid": "b5033fabb374412f88b6f13f7e99960d",
+                    "originalPropertyKey": "maxDecimals",
+                    "propertyIndex": 2,
+                    "propertyKey": "maxDecimals",
+                    "pw": {
+                        "displayName": "Max decimal places",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "a4d73f67b5f54907a7351ad4f70a2952",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hacd03e8cd2342f8a9a7605663c5e4db",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder",
+                        "srcWidget": "placeHolderLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b205d52f52094826b67e76448a367560"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konyemea",
+    "version": "1.0.0"
+}

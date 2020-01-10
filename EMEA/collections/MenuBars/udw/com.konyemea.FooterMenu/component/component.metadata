@@ -1,0 +1,44 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.konyemea",
+        "uw_classname": "FooterMenu",
+        "isLocked": false,
+        "userwidgets": [
+            "com.konyemea.FooterMenu"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "sknFlxWhiteBG",
+            "slForm",
+            "slFbox",
+            "slImage",
+            "sknLblFooterMenuMediumInactive",
+            "sknLblFooterMenuMedium"
+        ],
+        "images": [
+            "chat_inactive.png",
+            "home_active.png",
+            "more_inactive.png",
+            "search_inactive.png"
+        ],
+        "fonts": [
+            "Helvetica"
+        ],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-10-10T15:44:22.702Z",
+    "createdVizVersion": "8.4.43",
+    "project_version": "sprint34"
+}

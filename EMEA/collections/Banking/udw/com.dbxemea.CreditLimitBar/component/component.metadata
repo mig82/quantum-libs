@@ -1,0 +1,34 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.dbxemea",
+        "uw_classname": "CreditLimitBar",
+        "isLocked": false,
+        "userwidgets": [
+            "com.dbxemea.CreditLimitBar"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "CreditLimitBarLimitSkin",
+            "slForm",
+            "CreditLimitBarBalanceSkin"
+        ],
+        "images": [],
+        "fonts": [],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:52:33.733Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

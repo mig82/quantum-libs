@@ -1,0 +1,42 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.konyemea",
+        "uw_classname": "IconAndTextButton",
+        "isLocked": false,
+        "userwidgets": [
+            "com.konyemea.IconAndTextButton"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "slFbox",
+            "slForm",
+            "ButtonWithIconLabelSkin",
+            "ButtonWithIconLabelFocusSkin",
+            "slImage",
+            "ButtonWithIconFlexSkin",
+            "ButtonWithIconFlexFocusSkin"
+        ],
+        "images": [
+            "block_icon.png"
+        ],
+        "fonts": [
+            "OpenSans-SemiBold"
+        ],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:50:09.135Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}
