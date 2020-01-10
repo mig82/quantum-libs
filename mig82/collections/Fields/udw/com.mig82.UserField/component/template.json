@@ -1,0 +1,208 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "40dp"
+        },
+        "_left_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s133a656535149a3a939ad02be7deed1",
+        "_top_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_width_": {
+            "type": "string",
+            "value": "90%"
+        },
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "centerx": {
+            "type": "string",
+            "value": "50%"
+        },
+        "centery": {
+            "type": "string",
+            "value": "50%"
+        },
+        "children": [
+            "topFlex"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "UserField",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "ff7d19e5ecce4ce7bb69788632eb61c6",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwu9741cc984d540129b94caae136dd7ce",
+        "pf": "uwu9741cc984d540129b94caae136dd7ce",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "retainflowhorizontalalignment": false,
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "topFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s133a656535149a3a939ad02be7deed1",
+            "_top_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [
+                "textBox"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "topFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "ga3226475fb445d28e2ce4bc1f3f5396",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "UserField",
+            "pf": "uwu9741cc984d540129b94caae136dd7ce",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "textBox": {
+                "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "_placeholder_": "field.USER",
+                "_right_": {
+                    "type": "string",
+                    "value": "70dp"
+                },
+                "_skin_": "s038022d2d1f4ff791e0f8695f967f6f",
+                "_text_": "",
+                "_top_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "autocapitalize": "none",
+                "autocomplete": false,
+                "autocorrect": false,
+                "autofilter": false,
+                "canUpdateUI": true,
+                "containerheight": "",
+                "containerheightmode": 1,
+                "containerweight": 100,
+                "contentalignment": 4,
+                "focusskin": "s038022d2d1f4ff791e0f8695f967f6f",
+                "id": "textBox",
+                "info": null,
+                "iphone": {},
+                "iscustomlayout": false,
+                "isvisible": true,
+                "keyboardtype": "A",
+                "kuid": "g7e6ad99fc95431c9d4fbca67c1284bf",
+                "mode": "A",
+                "name": "kony.ui.TextBox2",
+                "parent": "topFlex",
+                "pf": "uwu9741cc984d540129b94caae136dd7ce",
+                "placeholderskin": "s038022d2d1f4ff791e0f8695f967f6f",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "securetextentry": false,
+                "textinputmode": "A",
+                "tooltip": "",
+                "viewtype": "default",
+                "wType": "TextField",
+                "zindex": 1
+            },
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "userwidgetKUID": "ua4a276053d847bba14570a2a93ff831"
+}

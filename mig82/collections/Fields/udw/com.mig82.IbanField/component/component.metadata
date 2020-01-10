@@ -1,0 +1,38 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.mig82",
+        "uw_classname": "IbanField",
+        "isLocked": false,
+        "userwidgets": [
+            "com.mig82.IbanField"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "slFbox",
+            "slForm",
+            "IbanFieldTextBoxSkin",
+            "defTextBoxFocus",
+            "defTextBoxPlaceholder",
+            "IbanFieldIconLabelSkin"
+        ],
+        "images": [],
+        "fonts": [
+            "default"
+        ],
+        "nativeApis": 0,
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-11-12T17:57:41.601Z",
+    "createdVizVersion": "8.4.43",
+    "project_version": "sprint34"
+}

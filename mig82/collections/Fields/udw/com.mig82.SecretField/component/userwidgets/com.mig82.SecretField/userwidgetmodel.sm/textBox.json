@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "52dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_placeholder_": "secret",
+    "_right_": {
+        "type": "string",
+        "value": "52dp"
+    },
+    "_skin_": "s065af18ed7347ca84eb20cdb2b28110",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "focusskin": "s065af18ed7347ca84eb20cdb2b28110",
+    "id": "textBox",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "db6f3430b8004614a7aaa6f14f5385a0",
+    "maxtextlength": 12,
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "topFlex",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sc444f8834d34ede953589d1e714bc02",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": true,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

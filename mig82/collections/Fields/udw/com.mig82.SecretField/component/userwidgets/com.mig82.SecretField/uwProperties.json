@@ -1,0 +1,517 @@
+{
+    "classname": "SecretField",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e173f2776edc4b04b4027f5e0b2fed8b",
+                    "paramList": [],
+                    "propertyKey": "toggle",
+                    "pw": {
+                        "displayName": "toggle",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g11f8ce69a724ba78222c0c2854cbccd",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Look & Feel",
+                "Configuration",
+                "Value"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "e75fc33695614a27b4606f2acad3883b",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "iconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Icon Skin",
+                        "srcWidget": "iconLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fd28555e437641a6b561299b04205ce2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Value",
+                    "kuid": "a7f949d5e01241c5907ba5e6d5397c21",
+                    "originalPropertyKey": "maxTextLength",
+                    "propertyIndex": 1,
+                    "propertyKey": "maxLength",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Max Text Length",
+                        "srcWidget": "textBox",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Configuration",
+                    "kuid": "d89647b54ffb4c149f33c70d9e4dee87",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 1,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder",
+                        "srcWidget": "textBox",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Value",
+                    "kuid": "d4c0c67f243e482f9c5d40d04e7bc531",
+                    "originalPropertyKey": "keyBoardStyle",
+                    "propertyIndex": 2,
+                    "propertyKey": "keyBoardStyle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": "default",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Keyboard Style",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "android"
+                            ],
+                            "tablet": [
+                                "android"
+                            ]
+                        },
+                        "srcWidget": "textBox",
+                        "type": "enum",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "j2739a47024a4d0cb87199ab7c60b046",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "textSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Box Skin",
+                        "srcWidget": "textBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Configuration",
+                    "kuid": "d9d3ea65070f4cb2a5f0d738a2a083b2",
+                    "originalPropertyKey": "enabled",
+                    "propertyIndex": 2,
+                    "propertyKey": "enabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "value"
+                        ],
+                        "displayName": "Enabled",
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "textBox",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Value",
+                    "kuid": "b4adccaaa71940dfa5592edbd3132648",
+                    "originalPropertyKey": "textInputMode",
+                    "propertyIndex": 3,
+                    "propertyKey": "inputMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Input Mode",
+                        "srcWidget": "textBox",
+                        "type": "enum",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Any",
+                                        "A"
+                                    ],
+                                    [
+                                        "Numeric Only",
+                                        "N"
+                                    ]
+                                ]
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "hb743aeca38e437cab9ddfa36c40ff59",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "buttonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Skin",
+                        "srcWidget": "showButton",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ba423ab8eb0e406b9d22d83090f9bdd7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "ced8177d9ab84973b5d718ea7dd2ee21",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "flexSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Container Skin",
+                        "srcWidget": "topFlex",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "id138f2e548c4a379c8ea17a10c4aca4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Value",
+                    "kuid": "f2366071034444aebff673744e04f763",
+                    "originalPropertyKey": "autoCapitalize",
+                    "propertyIndex": 4,
+                    "propertyKey": "capslock",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Capslock",
+                        "srcWidget": "textBox",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "enum",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "None",
+                                        "none"
+                                    ],
+                                    [
+                                        "Words",
+                                        "words"
+                                    ],
+                                    [
+                                        "Sentences",
+                                        "sentences"
+                                    ],
+                                    [
+                                        "All",
+                                        "all"
+                                    ]
+                                ]
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "b194779b0da94bbdba804050b475e62d",
+                    "originalPropertyKey": "padding",
+                    "propertyIndex": 5,
+                    "propertyKey": "padding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Box Padding",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "hideButton",
+                        "type": "list",
+                        "uiRepresentation": "Padding",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d434e91812e144ba833240a64fe15020"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "a3c018c48d6449dfb7c1efdae78dae96",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "buttonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Focus Skin",
+                        "srcWidget": "showButton",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ba423ab8eb0e406b9d22d83090f9bdd7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "be40f1e528c046c4a0e24e12010efd3e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "icon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Decorating Icon",
+                        "srcWidget": "iconLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fd28555e437641a6b561299b04205ce2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "d6f2ff6bfaea4586aea4e1b4ac6d54dc",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "buttonIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Icon",
+                        "srcWidget": "showButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ba423ab8eb0e406b9d22d83090f9bdd7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "c6a9cdc9f9474c8091bbdff80374a262",
+                    "originalPropertyKey": "placeholderSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "placeholderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder Skin",
+                        "srcWidget": "textBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "g50031bff4b645258a24223778eadf91",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "textFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Box Focus Skin",
+                        "srcWidget": "textBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "ia145b07bb8c4de19e12b74e33dc858a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 12,
+                    "propertyKey": "hideIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Hide Icon",
+                        "srcWidget": "hideButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d434e91812e144ba833240a64fe15020"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "f558cff851134f86a08d942ba933ba94",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 13,
+                    "propertyKey": "contentAlignment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Alignment",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "textBox",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}

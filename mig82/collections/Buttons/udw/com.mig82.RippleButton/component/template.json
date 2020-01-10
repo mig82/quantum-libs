@@ -1,0 +1,424 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "previewImage": "data:image/png;base64,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",
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "50dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s133a656535149a3a939ad02be7deed1",
+        "_width_": {
+            "type": "string",
+            "value": "100dp"
+        },
+        "allboxes": [],
+        "autogrowmode": 0,
+        "backgroundFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s133a656535149a3a939ad02be7deed1",
+            "_width_": {
+                "type": "string",
+                "value": "100dp"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "background": {
+                "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_base64_": null,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s5b00f5ee08c4fb9bb49b1bc96cf1e03",
+                "_src_": "ripplebutton_background.png",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "containerweight": 100,
+                "context": {
+                    "channel": "mobile",
+                    "platform": "iphone",
+                    "templateType": "userwidgets",
+                    "topLevelBox": null
+                },
+                "id": "background",
+                "imagescalemode": 0,
+                "info": null,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "b03cdfd1cbd941d6a771b446e47040d6",
+                "name": "kony.ui.Image2",
+                "parent": "backgroundFlex",
+                "pf": "uwue3c05b9497a4662b1ea681728712731",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "srcType": 1,
+                "wType": "Image",
+                "widgetalignment": 5,
+                "zindex": 1
+            },
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "children": [
+                "background"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "backgroundFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "a0290c2be6694d1e81666910820c4a6a",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "RippleButton",
+            "pf": "uwue3c05b9497a4662b1ea681728712731",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "button1": {
+            "@class": "com.kony.gen.viz.model.component.KVizButton",
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_margin_": [
+                6,
+                6,
+                6,
+                6
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_skin_": "s303bb0dd90d47c4a9e4c1396f9db558",
+            "_text_": "",
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "containerweight": 100,
+            "contentalignment": 5,
+            "displaytext": true,
+            "focusskin": null,
+            "id": "button1",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "dc9c874b04924cef9adfe07235ff4fdd",
+            "name": "kony.ui.Button",
+            "parent": "RippleButton",
+            "pf": "uwue3c05b9497a4662b1ea681728712731",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "wType": "Button",
+            "zindex": 3
+        },
+        "canUpdateUI": true,
+        "centerx": {
+            "type": "string",
+            "value": "50%"
+        },
+        "centery": {
+            "type": "string",
+            "value": "50%"
+        },
+        "children": [
+            "button1",
+            "dummy100Dp",
+            "rippleFlex",
+            "backgroundFlex"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "dummy100Dp": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_bottom_": {
+                "type": "string",
+                "value": "120%"
+            },
+            "_height_": {
+                "type": "string",
+                "value": "1dp"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s133a656535149a3a939ad02be7deed1",
+            "_width_": {
+                "type": "string",
+                "value": "100dp"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "dummy100Dp",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "e1bbe98a8c2e4adaaa58c6a0a2dcc60e",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "RippleButton",
+            "pf": "uwue3c05b9497a4662b1ea681728712731",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "enablescrolling": true,
+        "genericProperties": {},
+        "id": "RippleButton",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwue3c05b9497a4662b1ea681728712731",
+        "pf": "uwue3c05b9497a4662b1ea681728712731",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "retainflowhorizontalalignment": false,
+        "rippleFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "90dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s133a656535149a3a939ad02be7deed1",
+            "_width_": {
+                "type": "string",
+                "value": "90dp"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "children": [
+                "ripple"
+            ],
+            "clipbounds": false,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "rippleFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "hb024b1fd6084a3a862f4459abd5253c",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "RippleButton",
+            "pf": "uwue3c05b9497a4662b1ea681728712731",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "ripple": {
+                "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_base64_": null,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s5b00f5ee08c4fb9bb49b1bc96cf1e03",
+                "_src_": "ripplebutton_ripple.png",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "containerweight": 100,
+                "context": {
+                    "channel": "mobile",
+                    "platform": "iphone",
+                    "templateType": "userwidgets",
+                    "topLevelBox": null
+                },
+                "id": "ripple",
+                "imagescalemode": 0,
+                "info": null,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "i8d11e88b9704310b3c61be8288aef64",
+                "name": "kony.ui.Image2",
+                "parent": "rippleFlex",
+                "pf": "uwue3c05b9497a4662b1ea681728712731",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "srcType": 1,
+                "wType": "Image",
+                "widgetalignment": 5,
+                "zindex": 2
+            },
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 2
+        },
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1
+    },
+    "userwidgetKUID": "u123a82164b3491d9aef210f3a663315"
+}

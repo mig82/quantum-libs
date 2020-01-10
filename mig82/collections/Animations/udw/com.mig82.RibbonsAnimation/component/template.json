@@ -1,0 +1,318 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "30%"
+        },
+        "_left_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s133a656535149a3a939ad02be7deed1",
+        "_width_": {
+            "type": "string",
+            "value": "100%"
+        },
+        "allboxes": [],
+        "bottomRibbonFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_bottom_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_height_": {
+                "type": "string",
+                "value": "10%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s5b7663ffb5b4b24ba8c135d5421ae18",
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "bottomRibbonFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "e2bdecd0875244f48a911677672df472",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "RibbonsAnimation",
+            "pf": "uwu7836199a5ce4090b6f84a1fce99b8bd",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "canUpdateUI": true,
+        "centery": {
+            "type": "string",
+            "value": "50%"
+        },
+        "children": [
+            "topRibbonFlex",
+            "middleRibbonFlex",
+            "bottomRibbonFlex"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "RibbonsAnimation",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "b46f118acb654846ac868a7a9abbf663",
+        "layouttype": 2,
+        "middleRibbonFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "60%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s5b7663ffb5b4b24ba8c135d5421ae18",
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "children": [
+                "logoImage"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "middleRibbonFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "h1f995e120bf40779fc46f2e067f5e83",
+            "layouttype": 2,
+            "logoImage": {
+                "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_base64_": null,
+                "_height_": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "168dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "sb4147b62d704022a7b0565c1304c1d1",
+                "_src_": "small_logo.png",
+                "_top_": {
+                    "type": "string",
+                    "value": "77dp"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "60%"
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "containerweight": 100,
+                "context": {
+                    "channel": "mobile",
+                    "platform": "iphone",
+                    "templateType": "userwidgets",
+                    "topLevelBox": null
+                },
+                "id": "logoImage",
+                "imagescalemode": 1,
+                "info": null,
+                "invokedProperty": "src",
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "aaa0f3e7b67545ffa0af0a0944108da5",
+                "name": "kony.ui.Image2",
+                "parent": "middleRibbonFlex",
+                "pf": "uwu7836199a5ce4090b6f84a1fce99b8bd",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "srcType": 1,
+                "wType": "Image",
+                "widgetalignment": 5,
+                "zindex": 1
+            },
+            "name": "kony.ui.FlexContainer",
+            "parent": "RibbonsAnimation",
+            "pf": "uwu7836199a5ce4090b6f84a1fce99b8bd",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwu7836199a5ce4090b6f84a1fce99b8bd",
+        "pf": "uwu7836199a5ce4090b6f84a1fce99b8bd",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "retainflowhorizontalalignment": false,
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "topRibbonFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "10%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s5b7663ffb5b4b24ba8c135d5421ae18",
+            "_top_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "id": "topRibbonFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "b0bc9951024a4edba289db4ab490ffce",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "RibbonsAnimation",
+            "pf": "uwu7836199a5ce4090b6f84a1fce99b8bd",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "vizProps": {},
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "userwidgetKUID": "u0738f00f24349d9a1df3aa3e45065cb"
+}

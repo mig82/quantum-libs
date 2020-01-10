@@ -1,0 +1,40 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.mig82",
+        "uw_classname": "SpinnerButton",
+        "isLocked": false,
+        "userwidgets": [
+            "com.mig82.SpinnerButton"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "slFbox",
+            "slImage",
+            "goOnButtonSkin",
+            "goOnButtonFocus"
+        ],
+        "images": [
+            "spinner_circles_grey.gif"
+        ],
+        "fonts": [
+            "Helvetica",
+            "Roboto-Medium"
+        ],
+        "nativeApis": 0,
+        "mfbundle": "services/services.zip",
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-12-04T15:45:16.256Z",
+    "createdVizVersion": "8.4.55",
+    "project_version": "sprint34"
+}

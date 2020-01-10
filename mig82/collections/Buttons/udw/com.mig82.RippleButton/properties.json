@@ -1,0 +1,44 @@
+{
+    "AuthorName": "Miguelángel Fernández",
+    "Description": "A button with a Material Design \"ink ripple\" interaction effect.",
+    "Details": "<p>This button includes an <strong><em>\"ink ripple\"</em></strong> effect such as described by <strong>Material Design</strong> guidelines (https://material.io/design/interaction/states.html#pressed). The ripple appears wherever the user has clicked or touched the button, and from there it grows to cover the entire button.</p>\r\n\r\n<p>This component allows you to define the dimenssions of both the ripple and the ripple's background, pick an image to give them a specific color, select their opacity and configure the duration of the background and the ripple both when it's a quick press and when it's a long press.</p>\r\n\r\n<p><strong>Note: </strong>Due to limitations in how components are visualised at design-time, the opacity property only takes effect at runtime.</p>\r\n",
+    "DocumentationURL": "",
+    "ExternalLinks": [
+        {
+            "title": "Video",
+            "url": "https://youtu.be/Cz82DeHGVnU"
+        },
+        {
+            "title": "Material Design Guidelines",
+            "url": "https://material.io/design/interaction/states.html#pressed"
+        }
+    ],
+    "ProductRequirements": {
+        "Mobilefabric": false,
+        "VisualizerEnterprise": false
+    },
+    "SupportChannel": {
+        "desktop": true,
+        "phone": true,
+        "tablet": true
+    },
+    "SupportedPlatform": {
+        "android": true,
+        "blackberry": false,
+        "iOS": true,
+        "windows": false
+    },
+    "Title": "Ripple Button",
+    "appPreviewCode": "NAIEG",
+    "assetPlatform": "Visualizer",
+    "assetVersion": "1.0.0",
+    "createdBy": "miguelangel.fernandez@kony.com",
+    "createdVizVersion": "8.4.43",
+    "currentVizVersion": "8.4.43",
+    "description": "",
+    "itemCategory": "udw",
+    "itemGuid": "d96eb95688ef4ec28ad4c90461ebeb19",
+    "itemName": "com.mig82.RippleButton",
+    "libraryVersion": "libver4",
+    "modifiedBy": "miguelangel.fernandez@kony.com"
+}

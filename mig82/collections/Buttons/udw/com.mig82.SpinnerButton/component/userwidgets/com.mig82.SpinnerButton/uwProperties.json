@@ -1,0 +1,126 @@
+{
+    "classname": "SpinnerButton",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ac620e333ae64c7095b0bcf8834f8284",
+                    "paramList": [],
+                    "propertyKey": "hideSpinner",
+                    "pw": {
+                        "displayName": "hideSpinner",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e22226b050af45c6acdfc6993b5a36da",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "jb74afda60514c0aadb67e32cf9047d7",
+                    "paramList": [],
+                    "propertyKey": "showSpinner",
+                    "pw": {
+                        "displayName": "showSpinner",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e22226b050af45c6acdfc6993b5a36da",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cd1619b6b00145b1aa6ab486dd080925",
+                    "paramList": [],
+                    "propertyKey": "setEnabled",
+                    "pw": {
+                        "displayName": "setEnabled",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e22226b050af45c6acdfc6993b5a36da",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e1b0f13c11604a8cacdd48129c4f64c1",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onPressed",
+                    "pw": {
+                        "displayName": "onPressed",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e22226b050af45c6acdfc6993b5a36da",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a9acd20ba8b84dfcbd9b186dd0b388be",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text or i18n key",
+                        "srcWidget": "submitButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b3127677258c453795354cbd38ad97ab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e08a7abeebc04be18e3e2dc719c1ddb6",
+                    "originalPropertyKey": "enabled",
+                    "propertyIndex": 2,
+                    "propertyKey": "enabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "value"
+                        ],
+                        "displayName": "Enabled",
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "submitButton",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b3127677258c453795354cbd38ad97ab"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}

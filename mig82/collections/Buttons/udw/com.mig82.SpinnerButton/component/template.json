@@ -1,0 +1,185 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "45dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s133a656535149a3a939ad02be7deed1",
+        "_top_": {
+            "type": "string",
+            "value": "285dp"
+        },
+        "_width_": {
+            "type": "string",
+            "value": "90%"
+        },
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "centerx": {
+            "type": "string",
+            "value": "50%"
+        },
+        "children": [
+            "submitButton",
+            "spinnerImage"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "SpinnerButton",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "e22226b050af45c6acdfc6993b5a36da",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwub61a1b95f8f47e19be3120c018f9a71",
+        "pf": "uwub61a1b95f8f47e19be3120c018f9a71",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "retainflowhorizontalalignment": false,
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "spinnerImage": {
+            "@class": "com.kony.gen.viz.model.component.KVizImage2",
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_base64_": null,
+            "_height_": {
+                "type": "string",
+                "value": "20dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_right_": {
+                "type": "string",
+                "value": "10%"
+            },
+            "_skin_": "sb4147b62d704022a7b0565c1304c1d1",
+            "_src_": "spinner_circles_grey.gif",
+            "_width_": {
+                "type": "string",
+                "value": "30dp"
+            },
+            "canUpdateUI": true,
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "containerweight": 100,
+            "context": {
+                "channel": "mobile",
+                "platform": "iphone",
+                "templateType": "userwidgets",
+                "topLevelBox": null
+            },
+            "id": "spinnerImage",
+            "imagescalemode": 1,
+            "info": null,
+            "invokedProperty": "src",
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "d97907ac3b674542897501798f41ec62",
+            "name": "kony.ui.Image2",
+            "parent": "SpinnerButton",
+            "pf": "uwub61a1b95f8f47e19be3120c018f9a71",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "srcType": 1,
+            "wType": "Image",
+            "widgetalignment": 5,
+            "zindex": 1
+        },
+        "submitButton": {
+            "@class": "com.kony.gen.viz.model.component.KVizButton",
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_blur_": {
+                "enabled": true
+            },
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_margin_": [
+                6,
+                6,
+                6,
+                6
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_skin_": "s9b5659e942847269722010265cfae2f",
+            "_text_": "button",
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "containerweight": 100,
+            "contentalignment": 5,
+            "displaytext": true,
+            "focusskin": "s5b91f0263f64cc3b00a9819144029ed",
+            "id": "submitButton",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "b3127677258c453795354cbd38ad97ab",
+            "name": "kony.ui.Button",
+            "parent": "SpinnerButton",
+            "pf": "uwub61a1b95f8f47e19be3120c018f9a71",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "wType": "Button",
+            "zindex": 1
+        },
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "userwidgetKUID": "ud9d472c1eef407bb429fc9aeb50263c"
+}

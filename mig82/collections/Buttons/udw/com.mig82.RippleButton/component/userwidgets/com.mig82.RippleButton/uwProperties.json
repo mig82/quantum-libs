@@ -1,0 +1,588 @@
+{
+    "classname": "RippleButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "cc58328de3cf47ce9f751c192d96ee17",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onPressed",
+                    "pw": {
+                        "displayName": "onPressed",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Look & Feel",
+                "Ripple Effect",
+                "Background Effect",
+                "Fade Effect"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "0.4",
+                    "group": "Fade Effect",
+                    "kuid": "b3e2366c49e549398a0d24a08369a894",
+                    "originalPropertyKey": "fadeDuration",
+                    "propertyIndex": 1,
+                    "propertyKey": "fadeDuration",
+                    "pw": {
+                        "displayName": "Duration",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0.2",
+                    "group": "Ripple Effect",
+                    "kuid": "fb3ec65d65b14240a079f57fb9cb2c69",
+                    "originalPropertyKey": "rippleDuration",
+                    "propertyIndex": 5,
+                    "propertyKey": "rippleDuration",
+                    "pw": {
+                        "displayName": "Duration",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0.2",
+                    "group": "Background Effect",
+                    "kuid": "jc496cb3b33b4f9488c1c83a510f0c58",
+                    "originalPropertyKey": "backgroundDuration",
+                    "propertyIndex": 5,
+                    "propertyKey": "backgroundDuration",
+                    "pw": {
+                        "displayName": "Duration",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0.25",
+                    "group": "Background Effect",
+                    "kuid": "c7247a3165794076a78e7c7c4c92e635",
+                    "originalPropertyKey": "backgroundOpacity",
+                    "propertyIndex": 7,
+                    "propertyKey": "backgroundOpacity",
+                    "pw": {
+                        "displayName": "Opacity",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "1.5",
+                    "group": "Ripple Effect",
+                    "kuid": "fb5e70ab5a01449089211c6e3572e2fb",
+                    "originalPropertyKey": "longRippleDuration",
+                    "propertyIndex": 6,
+                    "propertyKey": "longRippleDuration",
+                    "pw": {
+                        "displayName": "Long Duration",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0.25",
+                    "group": "Ripple Effect",
+                    "kuid": "h8947793c53d42f19c0eb743fe8bb364",
+                    "originalPropertyKey": "rippleOpacity",
+                    "propertyIndex": 7,
+                    "propertyKey": "rippleOpacity",
+                    "pw": {
+                        "displayName": "Opacity",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "1.5",
+                    "group": "Background Effect",
+                    "kuid": "bdd6cfebe99b4c23bdf0ae96496cf260",
+                    "originalPropertyKey": "longBackgroundDuration",
+                    "propertyIndex": 6,
+                    "propertyKey": "longBackgroundDuration",
+                    "pw": {
+                        "displayName": "Long Duration",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "df71fe13061348029141684db5de861d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "button1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "dc9c874b04924cef9adfe07235ff4fdd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Background Effect",
+                    "kuid": "c890b571939b41fa87d43d2f76aedbf3",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "backgroundSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image",
+                        "srcWidget": "background",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "b03cdfd1cbd941d6a771b446e47040d6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Ripple Effect",
+                    "kuid": "d8d87fa78b914473b600cb4e52d5b778",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "rippleSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image",
+                        "srcWidget": "ripple",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "i8d11e88b9704310b3c61be8288aef64"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "d671a13752654d94a54f4a01e51ab031",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "buttonNormalSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Normal Skin",
+                        "srcWidget": "button1",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "dc9c874b04924cef9adfe07235ff4fdd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Ripple Effect",
+                    "kuid": "cd29b01281ac450ab3fec862443387ca",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 2,
+                    "propertyKey": "rippleWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Width",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "rippleFlex",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "hb024b1fd6084a3a862f4459abd5253c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Background Effect",
+                    "kuid": "dc78befd1aa94325958779e4c31ef52c",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 2,
+                    "propertyKey": "backgroundWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Width",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "backgroundFlex",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a0290c2be6694d1e81666910820c4a6a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Ripple Effect",
+                    "kuid": "d01e1df90e0d42e1b0c0269c6536ff6d",
+                    "originalPropertyKey": "height",
+                    "propertyIndex": 3,
+                    "propertyKey": "rippleHeight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Height",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "rippleFlex",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "hb024b1fd6084a3a862f4459abd5253c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Background Effect",
+                    "kuid": "i72f7566db824377bed71f0e47ad4a6e",
+                    "originalPropertyKey": "height",
+                    "propertyIndex": 3,
+                    "propertyKey": "backgroundHeight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Height",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "backgroundFlex",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a0290c2be6694d1e81666910820c4a6a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Ripple Effect",
+                    "kuid": "a8e5f6b2337d40c98d0186698f9fe930",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "showRipple",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show",
+                        "srcWidget": "rippleFlex",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "hb024b1fd6084a3a862f4459abd5253c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Background Effect",
+                    "kuid": "jd2bedd38b404ce79fc19d8bc445476c",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "showBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show",
+                        "srcWidget": "backgroundFlex",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a0290c2be6694d1e81666910820c4a6a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}

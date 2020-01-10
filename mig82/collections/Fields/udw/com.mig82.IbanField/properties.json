@@ -1,0 +1,44 @@
+{
+    "AuthorName": "Miguelángel Fernández",
+    "Description": "An IBAN input text field.",
+    "Details": "<p>An input field to enter and validate IBAN (International Bank Account Number) values.</p>\r\n\r\n<p>This component bundles logic to validate IBAN's for the following countries: NO, BE, DK, FI, FO, GL, NL, MK, SI, AT, BA, EE, KZ, LT, LU, CR, CH, HR, LI, LV, BG, BH, DE, GB, GE, IE, ME, RS, AE, GI, IL, AD, CZ, ES, MD, PK, RO, SA, SE, SK, VG, TN, PT, IS, TR, FR, GR, IT, MC, MR, SM, AL, AZ, CY, DO, GT, HU, LB, PL, BR, PS, KW, MU, MT.</p>\r\n\r\n<p>This component exposes two custom events: <strong><em>onValidIban</em></strong> and <em><strong>onInvalidIban</strong></em>, which are fired after the user is done entering a value. This will allow you to react to whether the value entered is valid or not —e.g. Typically, if the <em>IBAN</em> is invalid, it's possible the user is entering a local account number and therefore you need to display another field for a <em>SWIFT/BIC</em> or a&nbsp;<em>Sort Code</em> depending on the transfer mechanisms available the country.</p>\r\n",
+    "DocumentationURL": "",
+    "ExternalLinks": [
+        {
+            "title": "Video",
+            "url": "https://youtu.be/dHCnpwbuG2s"
+        },
+        {
+            "title": "IBAN",
+            "url": "https://en.wikipedia.org/wiki/International_Bank_Account_Number"
+        }
+    ],
+    "ProductRequirements": {
+        "Mobilefabric": false,
+        "VisualizerEnterprise": false
+    },
+    "SupportChannel": {
+        "desktop": true,
+        "phone": true,
+        "tablet": true
+    },
+    "SupportedPlatform": {
+        "android": true,
+        "blackberry": true,
+        "iOS": true,
+        "windows": true
+    },
+    "Title": "IBAN Field",
+    "appPreviewCode": "QDN7Z",
+    "assetPlatform": "Visualizer",
+    "assetVersion": "1.0.0",
+    "createdBy": "miguelangel.fernandez@kony.com",
+    "createdVizVersion": "8.4.43",
+    "currentVizVersion": "8.4.43",
+    "description": "",
+    "itemCategory": "udw",
+    "itemGuid": "f843d9b8e47c455a80b809f55a5205e5",
+    "itemName": "com.mig82.IbanField",
+    "libraryVersion": "libver4",
+    "modifiedBy": "miguelangel.fernandez@kony.com"
+}

@@ -1,0 +1,39 @@
+{
+    "exportType": "component",
+    "info": {
+        "uw_namespace": "com.mig82",
+        "uw_classname": "RippleButton",
+        "isLocked": false,
+        "userwidgets": [
+            "com.mig82.RippleButton"
+        ],
+        "masters": [],
+        "templates": [],
+        "actions": {},
+        "skins": [
+            "slFbox",
+            "slForm",
+            "slImage",
+            "RippleButtonNormalSkin"
+        ],
+        "images": [
+            "ripplebutton_background.png",
+            "ripplebutton_ripple.png"
+        ],
+        "fonts": [
+            "default"
+        ],
+        "nativeApis": 0,
+        "localFiles": [],
+        "cordova": [],
+        "forms": {},
+        "type": "userwidget",
+        "isMVC": false
+    },
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "createdOn": "2019-10-29T15:56:39.279Z",
+    "createdVizVersion": "8.4.43",
+    "project_version": "sprint34"
+}

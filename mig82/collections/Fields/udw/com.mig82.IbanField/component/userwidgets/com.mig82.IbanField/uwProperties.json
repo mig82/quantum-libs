@@ -1,0 +1,320 @@
+{
+    "classname": "IbanField",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fefb172b4b2d4ec0870e94537c93d89a",
+                    "paramList": [],
+                    "propertyKey": "validateIban",
+                    "pw": {
+                        "displayName": "validateIban",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f502f0a840ce4743bc74a7873fdd6fcf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "Validation Events",
+                    "kuid": "be6db7fc9d694b0785bf53f533faeabb",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onValidIban",
+                    "pw": {
+                        "displayName": "onValidIban",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f502f0a840ce4743bc74a7873fdd6fcf",
+                    "type": "event"
+                },
+                {
+                    "group": "Validation Events",
+                    "kuid": "g3d482f036fb4da7a223410a0428e42d",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onInvalidIban",
+                    "pw": {
+                        "displayName": "onInvalidIban",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f502f0a840ce4743bc74a7873fdd6fcf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "Validation Events"
+            ],
+            "properties": [
+                "Look & Feel"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hfd4744481334401ab5f27e952221e37",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "value",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Value",
+                        "srcWidget": "ibanTextBox",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "e59a769b2608491ab2d5705432d28778",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "icon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Icon",
+                        "srcWidget": "iconLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d448277a924c452cbeb1d04af99edc48"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "e35f7037044a4f78a22684d0259bc668",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "iconSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Icon Skin",
+                        "srcWidget": "iconLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d448277a924c452cbeb1d04af99edc48"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h394834bdeba416da4e917eddd794c0b",
+                    "originalPropertyKey": "enabled",
+                    "propertyIndex": 2,
+                    "propertyKey": "enabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "value"
+                        ],
+                        "displayName": "Enabled",
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "ibanTextBox",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "b77e5d7094fe45db8e544d671b03cb90",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "containerSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Container Skin",
+                        "srcWidget": "topFlex",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "jb1ee776542548a1bd1d2b2e8a9fb694"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cbab316e3a01430bb1f9a8e3657bd8ef",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 3,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder",
+                        "srcWidget": "ibanTextBox",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "g7d55b1343a24236abaf29db567526b1",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "contentFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Content Focus Skin",
+                        "srcWidget": "ibanTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "edde68fdecd345c1b73aaa9c9495f7e5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "contentSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Content Skin",
+                        "srcWidget": "ibanTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "iae8a1b6edd14f74ae8492f9cef4a217",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 6,
+                    "propertyKey": "contentAlignment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Content Alignment",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "ibanTextBox",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "f2d6ba5af8244aa1b96fb2ec240ebb3a",
+                    "originalPropertyKey": "blockedUISkin",
+                    "propertyIndex": 7,
+                    "propertyKey": "blockedSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Blocked Skin",
+                        "srcWidget": "ibanTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "f4578fe990db4dbe82ccb4c66d3b0f62",
+                    "originalPropertyKey": "placeholderSkin",
+                    "propertyIndex": 8,
+                    "propertyKey": "placeholderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder Skin",
+                        "srcWidget": "ibanTextBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "f863e2b16a1f4149b402ba7ca2c0f510"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}

@@ -1,0 +1,267 @@
+{
+    "breakpointInfo": null,
+    "images": [],
+    "previewImage": "data:image/png;base64,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",
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "50dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "sd162a646e6c48b78416d0237d4bc0d4",
+        "_top_": {
+            "type": "string",
+            "value": "173dp"
+        },
+        "_width_": {
+            "type": "string",
+            "value": "90%"
+        },
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "centerx": {
+            "type": "string",
+            "value": "50%"
+        },
+        "children": [
+            "topFlex"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "IbanField",
+        "info": null,
+        "iscustomlayout": false,
+        "isvisible": true,
+        "kuid": "f502f0a840ce4743bc74a7873fdd6fcf",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwu0fbc9dd8c6042338658867ee5bdb655",
+        "pf": "uwu0fbc9dd8c6042338658867ee5bdb655",
+        "retaincontentalignment": false,
+        "retainflexpositionproperties": false,
+        "retainflowhorizontalalignment": false,
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "topFlex": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "sd162a646e6c48b78416d0237d4bc0d4",
+            "_top_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [
+                "iconLabel",
+                "ibanTextBox"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "ibanTextBox": {
+                "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "50dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    5,
+                    0,
+                    5,
+                    0
+                ],
+                "_placeholder_": "ESXX 1000 2000 3000 4000",
+                "_right_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_skin_": "s4bd596a7dc5423b924274d36be395ce",
+                "_text_": "",
+                "_top_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "autocapitalize": "all",
+                "autocomplete": false,
+                "autocorrect": false,
+                "autofilter": false,
+                "canUpdateUI": true,
+                "containerheight": "",
+                "containerheightmode": 1,
+                "containerweight": 100,
+                "contentalignment": 6,
+                "focusskin": "sba6f0d8b74b457e981363e0e9f00940",
+                "id": "ibanTextBox",
+                "info": null,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "keyboardtype": "A",
+                "kuid": "f863e2b16a1f4149b402ba7ca2c0f510",
+                "maxtextlength": "",
+                "mode": "A",
+                "name": "kony.ui.TextBox2",
+                "parent": "topFlex",
+                "pf": "uwu0fbc9dd8c6042338658867ee5bdb655",
+                "placeholderskin": "sbdb956f841745088583781a8e3ffb1f",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "securetextentry": false,
+                "textinputmode": "A",
+                "tooltip": "",
+                "viewtype": "default",
+                "wType": "TextField",
+                "zindex": 1
+            },
+            "iconLabel": {
+                "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_margin_": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "sbd44576b4cc4cbf93b8526e915d67dc",
+                "_text_": "",
+                "_top_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "50dp"
+                },
+                "_wrapping_": 2,
+                "android": {
+                    "textStyle": {
+                        "letterSpacing": 0,
+                        "strikeThrough": false
+                    }
+                },
+                "canUpdateUI": true,
+                "containerweight": 100,
+                "contentalignment": 5,
+                "id": "iconLabel",
+                "info": null,
+                "ipad": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iphone": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "d448277a924c452cbeb1d04af99edc48",
+                "name": "kony.ui.Label",
+                "parent": "topFlex",
+                "pf": "uwu0fbc9dd8c6042338658867ee5bdb655",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "textstyle": {},
+                "tooltip": "",
+                "wType": "Label",
+                "zindex": 1
+            },
+            "id": "topFlex",
+            "info": null,
+            "iscustomlayout": false,
+            "isvisible": true,
+            "kuid": "jb1ee776542548a1bd1d2b2e8a9fb694",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "IbanField",
+            "pf": "uwu0fbc9dd8c6042338658867ee5bdb655",
+            "retaincontentalignment": false,
+            "retainflexpositionproperties": false,
+            "retainflowhorizontalalignment": false,
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "userwidgetKUID": "ub939c925cde4e7c854423095dcbca16"
+}

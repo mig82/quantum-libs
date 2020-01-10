@@ -1,0 +1,209 @@
+{
+    "classname": "UserField",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b256a40f8eab4b54aeec68fd0c215682",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onTextChange",
+                    "pw": {
+                        "displayName": "onTextChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff7d19e5ecce4ce7bb69788632eb61c6",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [
+                "Authentication Events"
+            ],
+            "properties": [
+                "Look & Feel",
+                "Configuration"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d2796a526936439eb228c336e1838d41",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "user",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "User",
+                        "srcWidget": "textBox",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g7e6ad99fc95431c9d4fbca67c1284bf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "b24e686c32714630b6c07352ac2cad25",
+                    "originalPropertyKey": "padding",
+                    "propertyIndex": 1,
+                    "propertyKey": "padding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Padding",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "textBox",
+                        "type": "list",
+                        "uiRepresentation": "Padding",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g7e6ad99fc95431c9d4fbca67c1284bf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Configuration",
+                    "kuid": "e31b56e790ba46eabc3ce2e340212ef7",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 1,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Placeholder",
+                        "srcWidget": "textBox",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g7e6ad99fc95431c9d4fbca67c1284bf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "cd4afaca16b74a68a5720a2fd283f1cc",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 2,
+                    "propertyKey": "alignment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Alignment",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "textBox",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g7e6ad99fc95431c9d4fbca67c1284bf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Configuration",
+                    "kuid": "cd01e09651784e5cb235febc361e9121",
+                    "originalPropertyKey": "enabled",
+                    "propertyIndex": 2,
+                    "propertyKey": "enabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "value"
+                        ],
+                        "displayName": "Enabled",
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "textBox",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g7e6ad99fc95431c9d4fbca67c1284bf"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}
